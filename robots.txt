@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robots.txt for PicShine AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .code-block {
+            background: #1a1a1a;
+            border-radius: 8px;
+            padding: 20px;
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+            border: 1px solid #333;
+        }
+        .copy-btn {
+            transition: all 0.3s ease;
+        }
+        .copy-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body class="p-8">
+    <div class="max-w-4xl mx-auto">
+        <div class="bg-white rounded-lg shadow-2xl p-8">
+            <div class="text-center mb-8">
+                <h1 class="text-4xl font-bold text-gray-800 mb-2">
+                    <i class="fas fa-robot text-blue-600 mr-3"></i>
+                    Robots.txt for PicShine AI
+                </h1>
+                <p class="text-gray-600 text-lg">Complete robots.txt configuration for optimal search engine crawling</p>
+            </div>
+
+            <div class="mb-8">
+                <h2 class="text-2xl font-semibold text-gray-700 mb-4">
+                    <i class="fas fa-file-code text-green-600 mr-2"></i>
+                    Robots.txt Content
+                </h2>
+                <div class="code-block relative">
+                    <button id="copyBtn" class="copy-btn absolute top-2 right-2 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded text-sm">
+                        <i class="fas fa-copy mr-1"></i> Copy
+                    </button>
+                    <pre id="robotsContent"># Robots.txt for PicShine AI
+# https://siddharth446.github.io/PicShine-AI/
+
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the site
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Block access to admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+
+# Allow access to CSS, JS, and image files
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /assets/
+
+# Sitemap location
+Sitemap: https://siddharth446.github.io/PicShine-AI/sitemap.xml
+
+# Crawl-delay (optional - removes this if not needed)
+Crawl-delay: 1</pre>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <div class="bg-blue-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold text-blue-800 mb-3">
+                        <i class="fas fa-upload text-blue-600 mr-2"></i>
+                        How to Upload
+                    </h3>
+                    <ol class="text-blue-700 space-y-2">
+                        <li>1. Copy the robots.txt content above</li>
+                        <li>2. Create a new file named <code class="bg-blue-200 px-2 py-1 rounded">robots.txt</code></li>
+                        <li>3. Paste the content into the file</li>
+                        <li>4. Upload to your GitHub repository root</li>
+                        <li>5. Commit and push the changes</li>
+                    </ol>
+                </div>
+
+                <div class="bg-green-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold text-green-800 mb-3">
+                        <i class="fas fa-check-circle text-green-600 mr-2"></i>
+                        What This Does
+                    </h3>
+                    <ul class="text-green-700 space-y-2">
+                        <li>• Allows all search engines to crawl</li>
+                        <li>• Blocks private/admin areas</li>
+                        <li>• Allows access to CSS/JS/images</li>
+                        <li>• Points to your sitemap</li>
+                        <li>• Sets crawl delay for politeness</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-8">
+                <h3 class="text-lg font-semibold text-yellow-800 mb-2">
+                    <i class="fas fa-exclamation-triangle text-yellow-600 mr-2"></i>
+                    Important Notes
+                </h3>
+                <ul class="text-yellow-700 space-y-1">
+                    <li>• The robots.txt file must be placed in the root directory of your website</li>
+                    <li>• URL should be: <code class="bg-yellow-200 px-2 py-1 rounded">https://siddharth446.github.io/PicShine-AI/robots.txt</code></li>
+                    <li>• Update the sitemap URL to match your actual sitemap location</li>
+                    <li>• Test your robots.txt using Google Search Console's robots.txt Tester</li>
+                </ul>
+            </div>
+
+            <div class="bg-purple-50 p-6 rounded-lg">
+                <h3 class="text-xl font-semibold text-purple-800 mb-3">
+                    <i class="fas fa-search text-purple-600 mr-2"></i>
+                    Next Steps for Google Search Console
+                </h3>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div>
+                        <h4 class="font-semibold text-purple-700 mb-2">1. Upload Files</h4>
+                        <ul class="text-purple-600 text-sm space-y-1">
+                            <li>• Upload robots.txt to root</li>
+                            <li>• Upload sitemap.xml to root</li>
+                            <li>• Add HTML verification meta tag</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-purple-700 mb-2">2. Submit to Google</h4>
+                        <ul class="text-purple-600 text-sm space-y-1">
+                            <li>• Add property in Search Console</li>
+                            <li>• Submit sitemap</li>
+                            <li>• Request indexing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-8">
+                <p class="text-gray-600">
+                    <i class="fas fa-heart text-red-500 mr-1"></i>
+                    Made for PicShine AI - Advanced 3D Photo Enhancement Platform
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('copyBtn').addEventListener('click', function() {
+            const content = document.getElementById('robotsContent').textContent;
+            navigator.clipboard.writeText(content).then(function() {
+                const btn = document.getElementById('copyBtn');
+                const originalText = btn.innerHTML;
+                btn.innerHTML = '<i class="fas fa-check mr-1"></i> Copied!';
+                btn.classList.add('bg-green-600');
+                btn.classList.remove('bg-blue-600');
+                
+                setTimeout(function() {
+                    btn.innerHTML = originalText;
+                    btn.classList.remove('bg-green-600');
+                    btn.classList.add('bg-blue-600');
+                }, 2000);
+            });
+        });
+    </script>
+</body>
+</html>
