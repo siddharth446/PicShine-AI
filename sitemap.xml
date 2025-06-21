@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Sitemap.xml - PicShine AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <style>
+        .xml-content {
+            background: #1a1a2e;
+            color: #16d9e3;
+            font-family: 'Courier New', monospace;
+            border-radius: 8px;
+            padding: 20px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            border: 1px solid #0f4c75;
+        }
+        .copy-button {
+            transition: all 0.3s ease;
+        }
+        .copy-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+    <div class="container mx-auto px-6 py-8">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <h1 class="text-4xl font-bold mb-4">
+                <i class="fas fa-sitemap text-blue-400 mr-3"></i>
+                Complete Sitemap.xml
+            </h1>
+            <p class="text-gray-300 text-lg">
+                Optimized sitemap for PicShine AI with all pages and blog posts
+            </p>
+        </div>
+
+        <!-- Instructions -->
+        <div class="bg-gray-800 rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold mb-4">
+                <i class="fas fa-info-circle text-green-400 mr-2"></i>
+                How to Use
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="font-semibold text-blue-400 mb-2">1. Save as sitemap.xml</h3>
+                    <p class="text-gray-300">Copy the XML content below and save it as 'sitemap.xml' in your website root directory.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-blue-400 mb-2">2. Upload to GitHub</h3>
+                    <p class="text-gray-300">Place the sitemap.xml file in your GitHub Pages repository root folder.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-blue-400 mb-2">3. Submit to Google</h3>
+                    <p class="text-gray-300">Add the sitemap URL in Google Search Console: yoursite.com/sitemap.xml</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-blue-400 mb-2">4. Verify Indexing</h3>
+                    <p class="text-gray-300">Monitor indexing status and search performance in Google Search Console.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- URL List -->
+        <div class="bg-gray-800 rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold mb-4">
+                <i class="fas fa-list text-yellow-400 mr-2"></i>
+                Included URLs (12 Pages)
+            </h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="space-y-2">
+                    <div class="flex items-center">
+                        <i class="fas fa-home text-green-400 mr-2"></i>
+                        <span class="text-blue-300">Homepage</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-blog text-orange-400 mr-2"></i>
+                        <span class="text-blue-300">5 AI Photo Enhancement Techniques</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-blog text-orange-400 mr-2"></i>
+                        <span class="text-blue-300">Future of AI in Photography</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-blog text-orange-400 mr-2"></i>
+                        <span class="text-blue-300">Professional Photo Editing Guide</span>
+                    </div>
+                </div>
+                <div class="space-y-2">
+                    <div class="flex items-center">
+                        <i class="fas fa-blog text-orange-400 mr-2"></i>
+                        <span class="text-blue-300">Best Practices for AI Photo Tools</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-blog text-orange-400 mr-2"></i>
+                        <span class="text-blue-300">Comparison: AI vs Traditional Editing</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-cog text-purple-400 mr-2"></i>
+                        <span class="text-blue-300">Features & Tools</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-question-circle text-pink-400 mr-2"></i>
+                        <span class="text-blue-300">FAQ & Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- XML Content -->
+        <div class="mb-8">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-2xl font-semibold">
+                    <i class="fas fa-code text-purple-400 mr-2"></i>
+                    Sitemap.xml Content
+                </h2>
+                <button id="copyBtn" class="copy-button bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg flex items-center">
+                    <i class="fas fa-copy mr-2"></i>
+                    Copy XML
+                </button>
+            </div>
+            
+            <div id="xmlContent" class="xml-content"><?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://siddharth446.github.io/PicShine-AI/</loc>
+        <lastmod>2024-12-28</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://siddharth446.github.io/PicShine-AI/og-image.jpg</image:loc>
+            <image:title>PicShine AI - Advanced Photo Enhancement</image:title>
+            <image:caption>AI-powered photo enhancement tool</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Blog Posts -->
+    <url>
+        <loc>https://siddharth446.github.io/PicShine-AI/blog/5-ai-photo-enhancement-techniques</loc>
+        <lastmod>2024-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <news:news>
+            <news:publication>
+                <news:name>PicShine AI Blog</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2024-12-28</news:publication_date>
+            <news:title>5 Revolutionary AI Photo Enhancement Techniques</news:title>
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://siddharth446.github.io/PicShine-AI/blog/future-of-ai-photography</loc>
+        <lastmod>2024-12-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <news:news>
+            <news:publication>
+                <news:name>PicShine AI Blog</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2024-12-27</news:publication_date>
+            <news:title>The Future of AI in Photography: Trends and Predictions</news:title>
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://siddharth446.github.io/PicShine-AI/blog/professional-photo-editing-guide</loc>
+        <lastmod>2024-12-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <news:news>
+            <news:publication>
+                <news:name>PicShine AI Blog</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2024-12-26</news:publication_date>
+            <news:title>Professional Photo Editing: From Beginner to Expert</news:title>
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://siddharth446.github.io/PicShine-AI/blog/best-practices-ai-photo-tools</loc>
+        <lastmod>2024-12-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <news:news>
+            <news:publication>
+                <news:name>PicShine AI Blog</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2024-12-25</news:publication_date>
+            <news:title>Best Practices for Using AI Photo Enhancement Tools</news:title>
+        </news:news>
+    </url>
+    
+    <url>
+        <loc>https://siddharth446.github.io/PicShine-AI/blog/ai-vs-traditional-photo-editing</loc>
+        <lastmod>2024-12-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <news:news>
+            <news:publication>
+                <news:name>PicShine AI Blog</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2024-12-24</news:publication_date>
+            <news:title>AI vs Traditional Photo Editing: Complete Comparison</news:title>
+        </news:news>
+    </url>
+    
+    <!-- Feature Pages -->
+    <url>
+        <loc>https://siddharth446.github.io/PicShine-AI/features</loc>
+        <lastmod>2024-12-28</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://siddharth446.github.io/PicShine-AI/style-transfer</loc>
+        <lastmod>2024-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://siddharth446.github.io/PicShine-AI/background-removal</loc>
+        <lastmod>2024-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://siddharth446.github.io/PicShine-AI/super-resolution</loc>
+        <lastmod>2024-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://siddharth446.github.io/PicShine-AI/batch-processing</loc>
+        <lastmod>2024-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Support Pages -->
+    <url>
+        <loc>https://siddharth446.github.io/PicShine-AI/faq</loc>
+        <lastmod>2024-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://siddharth446.github.io/PicShine-AI/contact</loc>
+        <lastmod>2024-12-28</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+</urlset></div>
+        </div>
+
+        <!-- Download Button -->
+        <div class="text-center mb-8">
+            <button id="downloadBtn" class="bg-green-600 hover:bg-green-700 px-8 py-3 rounded-lg text-lg font-semibold transition-all duration-300 hover:transform hover:scale-105">
+                <i class="fas fa-download mr-2"></i>
+                Download sitemap.xml
+            </button>
+        </div>
+
+        <!-- SEO Benefits -->
+        <div class="bg-gradient-to-r from-purple-800 to-blue-800 rounded-lg p-6">
+            <h2 class="text-2xl font-semibold mb-4">
+                <i class="fas fa-rocket text-yellow-400 mr-2"></i>
+                SEO Benefits of This Sitemap
+            </h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="text-center">
+                    <i class="fas fa-search text-3xl text-green-400 mb-3"></i>
+                    <h3 class="font-semibold mb-2">Better Indexing</h3>
+                    <p class="text-gray-200">Google will discover and index all your pages faster</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-chart-line text-3xl text-blue-400 mb-3"></i>
+                    <h3 class="font-semibold mb-2">Improved Rankings</h3>
+                    <p class="text-gray-200">Clear site structure helps search engine rankings</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-clock text-3xl text-purple-400 mb-3"></i>
+                    <h3 class="font-semibold mb-2">Fresh Content</h3>
+                    <p class="text-gray-200">Last modification dates help with content freshness</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Copy functionality
+        document.getElementById('copyBtn').addEventListener('click', function() {
+            const xmlContent = document.getElementById('xmlContent').textContent;
+            navigator.clipboard.writeText(xmlContent).then(function() {
+                const btn = document.getElementById('copyBtn');
+                const originalText = btn.innerHTML;
+                btn.innerHTML = '<i class="fas fa-check mr-2"></i>Copied!';
+                btn.classList.add('bg-green-600');
+                btn.classList.remove('bg-blue-600');
+                
+                setTimeout(() => {
+                    btn.innerHTML = originalText;
+                    btn.classList.remove('bg-green-600');
+                    btn.classList.add('bg-blue-600');
+                }, 2000);
+            });
+        });
+
+        // Download functionality
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            const xmlContent = document.getElementById('xmlContent').textContent;
+            const blob = new Blob([xmlContent], { type: 'application/xml' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'sitemap.xml';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(url);
+            
+            // Show success message
+            const btn = document.getElementById('downloadBtn');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check mr-2"></i>Downloaded!';
+            
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
